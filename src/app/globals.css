@@ -1,26 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN+Guides&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme{
+  /* custom colors */
+  --color-primary:#00FF00;
+  --color-main:#dd261e;
+ --font-Rubik:"Rubik", sans-serif;
+ --font-SubHeading:"Montserrat", sans-serif;
+ --font-ThirdHeading:"Playwrite VN Guides", cursive;
+
+ /* break points */
+ --breakpoint-xs:320px;
+ --breakpoint-smx:480px;
+ --breakpoint-sm:640px;
+ --breakpoint-md:768px;
+ --breakpoint-lg:1024px;
+ --breakpoint-xl:1280px;
+ --breakpoint-2xl:1536px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out;
 }
+
+/* Hide scrollbar for menu */
+.nav__menu::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.938rem;
+  background-color: hsl(220, 100%, 97%);
+  @apply antialiased;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1rem;
+  }
+}
+     
+
