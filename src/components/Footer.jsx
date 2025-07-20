@@ -11,7 +11,7 @@ export default function Footer() {
     <div className='bg-gradient-to-br from-white to-[#dd261e] px-[10px] lg:px-[40px]'>
       <div className='w-full py-[10px] lg:py-[40px] grid gap-6 
       grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
-        <div className='flex-1 border-2 bg-transpparent bg-opacity-80 p-2 rounded'>
+        <div className='flex-1  bg-transpparent bg-opacity-80 p-2 rounded'>
           <div className="logo h-[150px] w-[150px] relative">
             <Image 
               src={companyLogo} 
@@ -48,7 +48,7 @@ export default function Footer() {
           </address>
         </div>
 
-        <div className='flex-1 border-2 bg-transpparent bg-opacity-80 p-2 rounded'>
+        <div className='flex-1 bg-transpparent bg-opacity-80 p-2 rounded'>
           <h2 className='text-lg font-bold'>Updates</h2>
           {[1, 2, 3].map((_, i) => (
             <div className="latest-projects" key={i}>
@@ -63,7 +63,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className='flex-1 border-2 bg-transpparent bg-opacity-80 p-2 rounded'>
+        <div className='flex-1 bg-transpparent bg-opacity-80 p-2 rounded'>
           <h2 className='text-lg font-bold'>Services</h2>
           <ul className='flex flex-col gap-2'>
             <li>EPC Projects</li>
@@ -76,7 +76,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className='flex-1 border-2 bg-transparent bg-opacity-80 p-2 rounded'>
+        <div className='flex-1 bg-transparent bg-opacity-80 p-2 rounded'>
           <h2 className='text-lg font-bold'>Useful Links</h2>
           <ul className='flex flex-col gap-2'>
             <li>Home</li>

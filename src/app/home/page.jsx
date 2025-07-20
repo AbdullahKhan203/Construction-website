@@ -27,15 +27,19 @@ import Footer from '@/components/Footer'
 // import ThirdNav from './../../components/ThirdNav'
 import HeroCarousel from './components/HeroCoursel'
 import Navbar from '@/components/Navbar'
+import ContactInfo from '@/components/ContactInfo'
+import ConsultationInvite from '@/components/ConsultationInvite'
 export default function Home() {
   return (
     <>
      <div className='h-[100%] w-[100%] border-2'>
             <TopNav />
             <Navbar />
-            <Hero />
+            {/* <Hero /> */}
             <HeroCarousel />
             <Services />
+            <ConsultationInvite />
+            <ContactInfo />
             <Footer />
         </div>
     
