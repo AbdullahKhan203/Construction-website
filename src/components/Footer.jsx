@@ -12,13 +12,14 @@ export default function Footer() {
       <div className='w-full py-[10px] lg:py-[40px] grid gap-6 
       grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
         <div className='flex-1  bg-transpparent bg-opacity-80 p-2 rounded'>
-          <div className="logo h-[150px] w-[150px] relative">
-            <Image 
+          <div className="logo h-[150px] w-[150px] relative flex justify-center items-center">
+            {/* <Image 
               src={companyLogo} 
               alt="company logo" 
               fill 
               className="object-contain"
-            />
+            /> */}
+            Logo
           </div>
           <address className="not-italic text-lg text-gray-800 leading-relaxed">
             <strong className="block mb-1">ABC Constructions</strong>
@@ -92,7 +93,7 @@ export default function Footer() {
       </div>
 
       <p className="text-sm text-gray-800 text-center border-t mt-3 h-[40px] flex items-center justify-center bg-transparent bg-opacity-80 rounded">
-        © {new Date().getFullYear()} S & B Sons Construction Co. All rights reserved. Developed by:
+        © {new Date().getFullYear()} Company Name Co. All rights reserved. Developed by:
         <a href="" className="text-blue-500 hover:underline ml-1">
           Abdullah Khan
         </a>
@@ -100,7 +101,7 @@ export default function Footer() {
     </div>
   )
 }
-
+// S & B Sons Construction
 
 
 
