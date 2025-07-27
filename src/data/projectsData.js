@@ -113,9 +113,9 @@
 
 
 
-import ProjectImgOne from '../../public/assets/images/Frame1.png';
-import ProjectImgTwo from '../../public/assets/images/Frame2.png';
-import ProjectImgThree from '../../public/assets/images/Frame3.png';
+import ProjectImgOne from '../../public/assets/images/home-service-card.webp';
+import ProjectImgTwo from '../../public/assets/images/project.png.webp';
+import ProjectImgThree from '../../public/assets/images/home-projects.webp';
 // import ProjectImgOne from '../../public/assets/images/Frame1.png';
 // import ProjectImgTwo from '../../public/assets/images/Frame2.png';
 // import ProjectImgThree from '../../public/assets/images/Frame3.png';
@@ -224,3 +224,7 @@ export const projectsData = [
     image: ProjectImgThree,
   },
 ];
+
+
+
+

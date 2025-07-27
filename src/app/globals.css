@@ -105,23 +105,20 @@ body {
 
 
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+VN+Guides&display=swap');
-
 @import "tailwindcss";
 
-/* Custom theme values – use Tailwind config instead of @theme */
-:root {
+@theme {
+  /* custom colors */
   --color-primary: #00FF00;
   --color-main: #dd261e;
   --font-Rubik: "Rubik", sans-serif;
   --font-SubHeading: "Montserrat", sans-serif;
   --font-ThirdHeading: "Playwrite VN Guides", cursive;
 
-  /* Breakpoints (for reference only — Tailwind handles these) */
+  /* break points */
   --breakpoint-xs: 320px;
   --breakpoint-smx: 480px;
   --breakpoint-sm: 640px;
@@ -131,7 +128,6 @@ body {
   --breakpoint-2xl: 1536px;
 }
 
-/* Animations */
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -150,7 +146,6 @@ body {
   width: 0;
 }
 
-/* Base styles */
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.938rem;
@@ -164,7 +159,6 @@ body {
   }
 }
 
-/* Custom utility animations */
 @layer utilities {
   .animate-slide-in-right {
     animation: slideRight 0.7s ease-in-out;
@@ -193,10 +187,8 @@ body {
   }
 }
 
-/* ✅ Masonry Grid styles (for react-masonry-css) */
+/* Masonry styles */
 .my-masonry-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: -1rem; /* gutter size offset */
   width: auto;
@@ -207,7 +199,12 @@ body {
   background-clip: padding-box;
 }
 
-/* spacing between items in column */
 .my-masonry-grid_column > div {
   margin-bottom: 1rem;
 }
+
+
+
+
+
+

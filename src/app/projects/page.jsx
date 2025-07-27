@@ -29,7 +29,14 @@ import ProjectsContainer from './components/ProjectsContainer'
 
 export default function Projects() {
   return (
+    <div className='p-2'>
+      <div className='my-6'>
+       <p className='font-bold text-orange-500 text-center'>OUR Projects</p>
+       <h1 className='  text-center text-[32px] font-rubik my-1 smx:my-2'>We provide all of your
+industrial solution</h1>
+       </div>
     <ProjectsContainer />
+    </div>
   )
 }
 
