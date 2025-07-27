@@ -28,20 +28,16 @@ import Footer from '@/components/Footer'
 // import HeroCarousel from './components/HeroCoursel'
 
 import Navbar from '@/components/Navbar'
-import ContactInfo from '@/components/ContactInfo'
+import ContactInfo from '@/app/contact/components/ContactInfo'
 import ConsultationInvite from '@/components/ConsultationInvite'
+import ProjectSlider from './components/ProjectSlider'
 export default function Home() {
   return (
     <>
      <div className='h-[100%] w-[100%] border-2'>
-            {/* <TopNav />
-            <Navbar /> */}
-            {/* <Hero /> */}
-            {/* <HeroCarousel /> */}
+          
             <Services />
-            {/* <ConsultationInvite />
-            <ContactInfo /> */}
-            {/* <Footer /> */}
+           <ProjectSlider />
         </div>
     
 </>

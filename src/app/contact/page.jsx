@@ -5,13 +5,14 @@ import Info from './components/Info'
 import { AiOutlineHome } from "react-icons/ai";
 import { FaMobileAlt } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import ContactInfo from '@/components/ContactInfo';
+import ContactInfo from '@/app/contact/components/ContactInfo';
 import ConsultationInvite from '@/components/ConsultationInvite';
 import  EmbedMap from './components/EmbedMap'
 export default function Contact() {
   return (
-    <div>
-    <div className='w-[90%] md:max-w-[960px] m-auto my-2'>
+    <div className='w-[90%] md:max-w-[960px] m-auto my-2' >
+      <EmbedMap />
+    <div className='my-2'>
         <h1 className='text-[27px] font-Rubik font-semibold'>Get in Touch</h1>
         <div className='w-full flex flex-col md:flex-row justify-between'>
             <div className='w-full  md:w-[660px]  m-auto md:mx-0   my-2  md:my-0'>

@@ -1,16 +1,49 @@
+// import Image from 'next/image'
+// import React from 'react'
+
+// import ProjectCard from './components/ProjectCard'
+// export default function Projects() {
+//   return (
+//     <div className='w-full border-2 flex flex-wrap gap-2 flex-col  border-orange-500'>
+//       <h1 className=' text-[32px] font-Rubik text-center mt-4 mb-8 '>Our Projects</h1>
+//       <div className='max-w-[1500px] h-auto border-2 border-blue-600 grid grid-cols-3 m-auto'>
+//        <ProjectCard />
+//        <ProjectCard />
+//        <ProjectCard />
+     
+
+//      </div>
+//     </div>
+//   )
+// }
+
+
+
+
+
 import Image from 'next/image'
 import React from 'react'
-import ProjectImg from '../../../public/assets/images/project.png.webp'
+
+import ProjectCard from './components/ProjectCard'
+import ProjectsContainer from './components/ProjectsContainer'
+
 export default function Projects() {
   return (
-    <div className='max-w-[960px] m-auto border-2 flex flex-wrap gap-2'>
-      <div className='h-[310px] w-[291px]'>
-      <div className='w-[100%] h-[208px] relative border-2'>
-          <Image src={ProjectImg} fill alt='project-Image'  />
-      </div>
-       <div className='flex-1 border-2 border-orange-500 w-full'></div>
-      </div>
-     
-    </div>
+    <ProjectsContainer />
   )
 }
+
+
+
+
+// <div className="w-full border-2 flex flex-col items-center border-orange-500 px-4">
+    //   <h1 className="text-[32px] font-Rubik text-center mt-4 mb-8">Our Projects</h1>
+
+    //   {/* Fixed container */}
+    //   <div className="w-full max-w-[1500px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-2 border-blue-600 mx-auto">
+    //     {/* <ProjectCard />
+    //     <ProjectCard />
+    //     <ProjectCard /> */}
+    //     <ProjectsContainer />
+    //   </div>
+    // </div>

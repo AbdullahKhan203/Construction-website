@@ -391,6 +391,7 @@ import { useState, useEffect } from "react";
 import CompanyLogo from '../../public/assets/images/company-logo.png' 
 import Image from "next/image";
 import Link from "next/link";
+import { servicesData as data } from '../data/servicesData';
 import { 
   RiPlanetLine, 
   RiMenuLine, 
@@ -475,36 +476,56 @@ const Navbar = () => {
                 
                 {/* Services Dropdown */}
                 <li className="group relative cursor-pointer">
-                  <div className="flex items-center justify-between h-full px-6 py-5 text-white font-semibold hover:bg-[hsl(220,24%,15%)] md:hover:bg-transparent md:px-0 md:py-0">
+                  <Link href="/services" className="flex items-center justify-between h-full px-6 py-5 text-white font-semibold hover:bg-[hsl(220,24%,15%)] md:hover:bg-transparent md:px-0 md:py-0">
                     <span>Services</span>
                     <RiArrowDownSLine className="ml-1 text-xl transition-transform duration-400 group-hover:rotate-180" />
-                  </div>
+                  </Link>
                   
                   <ul className="max-h-0 overflow-hidden transition-all duration-400 ease-out group-hover:max-h-[1000px] group-hover:transition-all group-hover:duration-400 group-hover:ease-in md:absolute md:left-0 md:top-full md:w-48 bg-[hsl(220,24%,15%)] md:opacity-0 md:pointer-events-none md:group-hover:opacity-100 md:group-hover:pointer-events-auto md:z-[101]">
                     {/* Dropdown items */}
-                     <li>
-                       <Link href="/services" className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
-                         <RiUserLine className="text-xl" />
-                         <span>Service 1</span>
+                    {data.map((item,i)=>{
+                       return  <li key={i}>
+                       <Link   key={i} href={`/services/${item.slug}`} className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span>{item.title}</span>
+                       </Link>
+                     </li>
+                    })}
+                    
+                     {/* <li>
+                       <Link href="/services/service2"  className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span>MECHANICAL WORK</span>
                        </Link>
                      </li>
                      <li>
-                       <Link href="/services" className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
-                         <RiLockLine className="text-xl" />
-                         <span>Service 2</span>
+                       <Link href="/services/service3"  className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span>CIVIL WORK</span>
                        </Link>
                      </li>
                      <li>
-                       <Link href="#" className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
-                         <RiMessage3Line className="text-xl" />
-                         <span>Service 3</span>
+                       <Link href="/services/service3"  className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span className="letter-wrap">TELECOMMUNICATION WORK</span>
                        </Link>
                      </li>
+                     <li>
+                       <Link href="/services/service3"  className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span>TRANSMISSION LINE </span>
+                       </Link>
+                     </li>
+                     <li>
+                       <Link href="/services/service3"  className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span>GRID STATION</span>
+                       </Link>
+                     </li>
+                     <li>
+                       <Link href="/services/service3"  className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
+                         <span>MANPOWER (MANPOWER & EPTT)</span>
+                       </Link>
+                     </li> */}
                   </ul>
                 </li>
                 <li className="group relative cursor-pointer">
                   <div className="flex items-center justify-between h-full px-6 py-5 text-white font-semibold hover:bg-[hsl(220,24%,15%)] md:hover:bg-transparent md:px-0 md:py-0">
-                    <span>Projects</span>
+                    <Link href='/projects'>Projects</Link>
                     <RiArrowDownSLine className="ml-1 text-xl transition-transform duration-400 group-hover:rotate-180" />
                   </div>
                   
@@ -512,19 +533,19 @@ const Navbar = () => {
                     {/* Dropdown items */}
                      <li>
                        <Link href="#" className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
-                         <RiUserLine className="text-xl" />
+                         {/* <RiUserLine className="text-xl" /> */}
                          <span>Project 1</span>
                        </Link>
                      </li>
                      <li>
                        <Link href="#" className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
-                         <RiLockLine className="text-xl" />
+                         {/* <RiLockLine className="text-xl" /> */}
                          <span>Project 2</span>
                        </Link>
                      </li>
                      <li>
                        <Link href="#" className="flex items-center gap-2 px-6 py-3 pl-12 text-white font-semibold bg-[hsl(220,24%,15%)] hover:bg-[hsl(220,24%,12%)] md:px-4 md:pl-4">
-                         <RiMessage3Line className="text-xl" />
+                         {/* <RiMessage3Line className="text-xl" /> */}
                          <span>Project 3</span>
                        </Link>
                      </li>
