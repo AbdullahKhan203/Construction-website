@@ -68,7 +68,6 @@
 import Masonry from 'react-masonry-css';
 import Image from 'next/image';
 import { projectsData } from '@/data/projectsData';
-
 const breakpointColumnsObj = {
   default: 4,
   1100: 3,
@@ -76,7 +75,11 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
+
+
+
 export default function ProjectsContainer() {
+  
   return (
     <Masonry
       breakpointCols={breakpointColumnsObj}
@@ -114,5 +117,6 @@ export default function ProjectsContainer() {
         </div>
       ))}
     </Masonry>
+
   );
 }

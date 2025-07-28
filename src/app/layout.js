@@ -78,6 +78,9 @@ export default function RootLayout({ children }) {
         <main className="flex-grow">{children}</main>
 
         <Footer />
+         {/* Add portal targets at the end of body */}
+        <div id="modal-root" className="z-[1000] fixed top-0 left-0 w-full h-full pointer-events-none" />
+        <div id="auth-modal-root" className="z-[2000] fixed top-0 left-0 w-full h-full pointer-events-none" />
       </body>
     </html>
   );

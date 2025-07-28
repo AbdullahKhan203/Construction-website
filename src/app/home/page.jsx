@@ -31,6 +31,7 @@ import Navbar from '@/components/Navbar'
 import ContactInfo from '@/app/contact/components/ContactInfo'
 import ConsultationInvite from '@/components/ConsultationInvite'
 import ProjectSlider from './components/ProjectSlider'
+import PopupModel from './components/PopupModel'
 export default function Home() {
   return (
     <>
@@ -38,6 +39,7 @@ export default function Home() {
           
             <Services />
            <ProjectSlider />
+           <PopupModel />
         </div>
     
 </>
