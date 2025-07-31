@@ -117,7 +117,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 export default function ConsultationInvite() {
   return (
-    <div className="max-w-[1200px] relative min-h-[300px] sm:min-h-[400px] md:min-h-[500px] flex items-center  overflow-hidden m-auto">
+    <div className="max-w-[1300px] relative min-h-[300px] sm:min-h-[400px] md:min-h-[500px] flex items-center  overflow-hidden m-auto">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image  

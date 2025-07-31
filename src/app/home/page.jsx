@@ -39,7 +39,7 @@ export default function Home() {
           
             <Services />
            <ProjectSlider />
-           <PopupModel />
+           {/* <PopupModel /> */}
         </div>
     
 </>

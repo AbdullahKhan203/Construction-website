@@ -4,8 +4,8 @@ export default function HomeLayout({ children }) {
   return (
     <div className="about-page-wrapper">
       {children}
-       <ConsultationInvite/>
-        <ContactInfo/>
+       {/* <ConsultationInvite/> */}
+        {/* <ContactInfo/> */}
     </div>
   );
 }

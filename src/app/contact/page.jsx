@@ -50,7 +50,7 @@ export default function Contact() {
     </div>
     
 
-            <ContactInfo />
+            {/* <ContactInfo /> */}
             {/* <EmbedMap /> */}
             {/* <ConsultationInvite /> */}
             </div>
