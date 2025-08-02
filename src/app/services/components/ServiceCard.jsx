@@ -52,14 +52,14 @@ export default function ServiceCard(props) {
 
 
 
-<Link href={`/services/${props.slug}`} className="w-[90%] sm:w-[60%] md:w-[350px] lg:w-[300px]  md:h-[400px]   lg:h-[350px] m-auto my-2 border-2 flex flex-col"> 
+<Link href={`/services/${props.slug}`} className="w-[90%] sm:w-[60%] md:w-[350px] lg:w-[300px]  md:h-[400px]   lg:h-[350px] m-auto my-2  flex flex-col"> 
   {/* Image Section */}
-  <div className="w-full h-[300px] lg:h-[250px] border-2">
+  <div className="w-full h-[300px] lg:h-[250px] ">
     <Image src={props.img} alt="card-img" className="w-full h-full object-cover" />
   </div>
 
   {/* Content Section */}
-  <div className="flex flex-1 flex-col justify-start lg:justify-between border-2 border-red-400 p-2">
+  <div className="flex flex-1 flex-col justify-start lg:justify-between shadow-md border-red-400 py-2">
     <h1 className="text-[28px] leading-6">{props.title}</h1>
     <p className="leading-4 text-sm">{props.description}</p>
     <p href={`/services/${props.slug}`} className="text-blue-600 hover:underline text-sm">Read more</p>

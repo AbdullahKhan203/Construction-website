@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceCard from './ServiceCard'
 import { servicesData as data } from '../../../data/servicesData';
 export default function Services() {
-      console.log("data",data);
+      // console.log("data",data);
       
   return (
     <div className='h-auto max-w-[960px] m-auto my-[20px] md:my-[40px]'>

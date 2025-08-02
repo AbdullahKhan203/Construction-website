@@ -20,10 +20,11 @@
 
 import React from 'react'
 import Hero from '../../components/Hero'
-import Services from '@/app/home/components/Services'
+// import Services from '@/app/home/components/Services'
 import Projects from './components/Projects'
 import TopNav from '@/components/TopNav'
 import Footer from '@/components/Footer'
+import Services from '@/app/services/components/Services'
 // import ThirdNav from './../../components/ThirdNav'
 // import HeroCarousel from './components/HeroCoursel'
 
@@ -35,7 +36,7 @@ import PopupModel from './components/PopupModel'
 export default function Home() {
   return (
     <>
-     <div className='h-[100%] w-[100%] border-2'>
+     <div className='h-[100%] w-[100%]'>
           
             <Services />
            <ProjectSlider />
