@@ -147,7 +147,7 @@ export default function ConsultationInvite() {
                           bg-black text-white absolute bottom-0 right-0 
                           flex items-center justify-center gap-2 hover:bg-gray-800 transition-colors">
           <span className="flex items-center gap-1 sm:gap-2 leading-none">
-            <span className="text-[16px] sm:text-[20px] text-nowrap">Request a Quote</span>
+            <span className="text-[12px] sm:text-[16px] text-nowrap">Request a Quote</span>
             <MdArrowRightAlt className="text-[20px]" />
           </span>
         </button>
