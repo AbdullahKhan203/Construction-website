@@ -276,7 +276,7 @@ export default function HeroCarousel() {
       {pathname === '/home' ? (
         <div className="w-[200px] smx:w-[300px] sm:w-[450px] md:w-[500px] h-[150px] smx:h-[200px] sm:h-[260px] bg-white absolute top-[15px] smx:top-[30px] lg:top-[180px] left-[40px] smx:left-[80px] sm:left-[100px] p-[10px] sm:p-[40px] z-10">
           <p className="text-orange-500 text-[12px] smx:text-[16px]">Quality work.trustable services.Dedicated team</p>
-          <h1 className="text-[22px] smx:text-[28px] sm:text-[42px] leading-[22px] smx:leading-[30px] sm:leading-[40px]">
+          <h1 className="text-[22px] smx:text-[28px] sm:text-[42px] leading-[22px] smx:leading-[30px] sm:leading-[40px] md:leading-[62px]">
             We Provide you insustrial Solution
           </h1>
           <button className="h-[30px] w-[150px] smx:h-[50px] smx:w-[200px] bg-orange-500 absolute bottom-0 flex justify-center items-center gap-2 right-0">
