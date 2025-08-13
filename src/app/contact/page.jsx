@@ -8,6 +8,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import ContactInfo from '@/app/contact/components/ContactInfo';
 import ConsultationInvite from '@/components/ConsultationInvite';
 import  EmbedMap from './components/EmbedMap'
+import ContactForm from './components/ContactForm';
 export default function Contact() {
   return (
     <div className='w-[90%] md:max-w-[960px] m-auto my-2' >
@@ -16,7 +17,7 @@ export default function Contact() {
         <h1 className='text-[27px] font-Rubik font-semibold'>Get in Touch</h1>
         <div className='w-full flex flex-col md:flex-row justify-between'>
             <div className='w-full  md:w-[660px]  m-auto md:mx-0   my-2  md:my-0'>
-               <form className=' w-full' action="">
+               {/* <form className='w-full' action="">
                <textarea
   className="w-full h-[190px] border-1 outline-none p-2"
   name=""
@@ -33,7 +34,8 @@ export default function Contact() {
                     </div> 
                     
                     <Buton stylee="w-[100px] h-[50px] flex items-center justify-center border-2 text-white hover:text-main border-main  hover:bg-transparent mt-6" value="Send" />    
-               </form>
+               </form> */}
+               <ContactForm />
             </div>
             <div className='w-[100%] sm:w-[60%]  md:w-[240px]  '>
                 {/* for region and local address */}

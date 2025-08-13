@@ -32,9 +32,17 @@ export default function Founder() {
             </div>
         </div>
         <div className='h-auto md:h-[500px]  mx-auto  md:mx-0 w-[100%]  md:max-w-[350px] lg:max-w-[400px]  py-10 px-1 mr-0 lg:mr-[-20px] '>
-            <p className='text-[16px]'>About Company</p>
+            <p className='text-[16px] text-main'>About Company</p>
             <h2 className='text-[44px] mt-3'>Deliver inovative Industrial solution</h2>
-            <p className='text-[16px] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam similique voluptate praesentium amet, deserunt omnis distinctio, ratione quia consequuntur facilis quasi? Laudantium rerum consectetur sint voluptatum cupiditate sunt distinctio iusto!</p>
+            <p className='text-[16px] '>Siddique & Bashir Sons Construction Company is a constituent 
+company of a group active in the field of construction and industries. 
+The company includes a brilliant professional team for the purpose 
+of constructing all types of low / high voltage transmission lines, 
+substations, mechanical erection of industrial plants. S&BSCC is the 
+No. 1 choice for engineering, construction, and project management. 
+Their diverse portfolio encompasses Power Transmission Line & 
+Substation Construction, Procurement, Installation & Erection of 
+Electrical Equipment.</p>
         </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Button(props) {
+export default function Buton(props) {
   return (
-    <div className={`bg-main ${props.stylee || ''}`}>{props.value}</div>
+    <button type={props.type} onClick={props.onClick} className={`bg-main ${props.stylee || ''}`}>{props.value}</button>
   )
 }

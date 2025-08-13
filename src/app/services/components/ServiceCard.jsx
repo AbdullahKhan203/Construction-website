@@ -62,7 +62,7 @@ export default function ServiceCard(props) {
   <div className="flex flex-1 flex-col justify-start lg:justify-between shadow-md border-red-400 py-2">
     <h1 className="text-[28px] leading-6">{props.title}</h1>
     <p className="leading-4 text-sm">{props.description}</p>
-    <p href={`/services/${props.slug}`} className="text-blue-600 hover:underline text-sm">Read more</p>
+    <p href={`/services/${props.slug}`} className="hover:underline text-sm text-black hover:text-main">Read more</p>
   </div>
 </Link>
 

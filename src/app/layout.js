@@ -58,7 +58,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Inter } from "next/font/google";
 import TopNav from "@/components/TopNav";
 import LayoutWrapper from "@/components/LayoutWrapper";
-
+import { Toaster } from "react-hot-toast";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -89,7 +89,8 @@ export default function RootLayout({ children }) {
         <main className="flex-grow">
           <LayoutWrapper>{children}</LayoutWrapper>
         </main>
-
+        <Toaster position="top-right" reverseOrder={false} />
+        
         {/* Add portal targets at the end of body */}
         <div id="modal-root" className="z-[1000] fixed top-0 left-0 w-full h-full pointer-events-none" />
         <div id="auth-modal-root" className="z-[2000] fixed top-0 left-0 w-full h-full pointer-events-none" />
