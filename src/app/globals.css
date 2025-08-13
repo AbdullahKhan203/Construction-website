@@ -113,7 +113,8 @@ body {
 @theme {
   /* custom colors */
   --color-primary: #00FF00;
-  --color-main: #dd261e;
+  /* --color-main: #dd261e; */
+  --color-main: #ff6900;
   --font-Rubik: "Rubik", sans-serif;
   --font-SubHeading: "Montserrat", sans-serif;
   --font-ThirdHeading: "Playwrite VN Guides", cursive;

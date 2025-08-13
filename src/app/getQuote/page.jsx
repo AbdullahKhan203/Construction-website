@@ -24,7 +24,7 @@ export default function GetQuote() {
             value={selectedService}
             onChange={handleServiceSelect}
             required
-            className="border border-gray-300 p-2 w-full"
+            className="border border-gray-300 p-2 w-full "
           >
             <option value="">-- Select Service --</option>
             <option>Electrical Work</option>
@@ -70,7 +70,7 @@ export default function GetQuote() {
             <div className="md:col-span-2">
               <button
                 type="submit"
-                className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+                className="bg-main border-main border-2 text-white hover:text-main px-6 py-2 rounded hover:bg-white  transition"
               >
                 Submit Request
               </button>

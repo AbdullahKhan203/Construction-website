@@ -118,10 +118,10 @@ import footerProject from '../../public/assets/images/footer-project.jpeg'
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGlobe } from "react-icons/fa";
-
+// to-[#dd261e]
 export default function Footer() {
   return (
-    <div className='bg-gradient-to-br from-white to-[#dd261e] px-[10px] lg:px-[40px]'>
+    <div className='bg-gradient-to-br from-white to-main px-[10px] lg:px-[40px]'>
       <div className='w-full py-[10px] lg:py-[40px] grid gap-6 
       grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
         <div className='flex-1  bg-transpparent bg-opacity-80 p-2 rounded'>
