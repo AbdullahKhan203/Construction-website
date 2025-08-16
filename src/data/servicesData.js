@@ -6,7 +6,7 @@ export const servicesData = [
     title: "Electrical Work",
     shortDescription: "Complete electrical solutions for all project scales.",
     longDescription:
-      "Our Electrical Work services include installation, maintenance, and troubleshooting for residential, commercial, and industrial facilities. We handle lighting, wiring, panel boards, and power systems with a focus on safety and compliance with international standards.",
+      "Supply and installation of sub-stations, generators switch gear control & protection system, panel boards, Electrical distribution system, External & internal Electrification, Over Head Transmission Line, Conductor stringing, OPGW Stringing, Street Lighting, Air Conditioning, Fire Alarm system, Laying & Pulling of Lv, Mv & Hv Power cables, Termination, Splicing and Testing of Power cables. Supply And installation of cable Trays, Cable Ladders, Conduits EMT, RGS & Flexible Metallic Conduits Fitting. Supply and installations of CCTV systems fire alarm system Operation and Maintenance services for Electrical distribution system. ",
     image: ServiceImg,
   },
   {
@@ -14,7 +14,7 @@ export const servicesData = [
     title: "Mechanical Work",
     shortDescription: "Expert mechanical installations and maintenance services.",
     longDescription:
-      "We offer high-quality Mechanical Work services, covering HVAC systems, piping, pumps, motors, and other mechanical installations. Our team ensures efficiency and reliability through advanced tools and engineering best practices.",
+      "We S&BSCC provides services for Tower Assembly, Tower Erection, Welding, and all kind of Mechanical Works by skilled workers.",
     image: ServiceImg
   },
   {
@@ -22,7 +22,7 @@ export const servicesData = [
     title: "Civil Work",
     shortDescription: "End-to-end civil construction and infrastructure solutions.",
     longDescription:
-      "Our Civil Work services cover everything from site preparation, foundation laying, structural frameworks, to architectural finishing. We undertake commercial, industrial, and public infrastructure projects with precision and durability.",
+      "Development of civil infrastructure is always our key priority; we have proven capability to deliver projects under this domain. Our experienced team of professionals always works hard to deliver the projects, keeping in mind a sustainable future. S&BSCC is up to date with knowledge and expertise to carry out Civil Works of 220 / 500 kV Transmission Lines.  Similarly Control House Building / Offices and Switchyard Foundation Work for Grid Stations. We have adequate expertise for the construction of Control House Building for 220/500kV Switchyards of Power Houses, Cable Trenches, and Earthing works.",
     image: ServiceImg
   },
   {
@@ -30,7 +30,7 @@ export const servicesData = [
     title: "Telecommunication Work",
     shortDescription: "Reliable telecom infrastructure and network deployment.",
     longDescription:
-      "We provide Telecommunication Work services such as tower erection, fiber optic installation, RF testing, and maintenance. Our expertise helps in setting up robust and scalable communication networks across urban and remote areas.",
+      "Supply and Installation of fiber optical cables, Patch Panels.Splicing and testing of fiber optical cables. Operation and maintenance services for telecommunication systems.",
     image: ServiceImg
   },
   {
@@ -38,7 +38,7 @@ export const servicesData = [
     title: "Transmission Line",
     shortDescription: "High-voltage line construction and maintenance services.",
     longDescription:
-      "Our Transmission Line services include design, erection, stringing, and testing of overhead and underground lines. We handle voltage levels from 11kV to 500kV ensuring grid reliability and energy efficiency for public and private utilities.",
+      "S&B Sons Construction Company is a leading provider of specialized contracting services, delivering infrastructure solutions to electric power. The company provides a comprehensive range of services, including the design, installation, maintenance, and repair of virtually every type of infrastructure. With approximately 300 employees, and field operations across Pakistan. S&B sons Construction Company has the manpower, resources and expertise to complete projects that are local, regional, national, or even international in scope. All types of earth work including Excavation, Disposal and Backfilling. Site development/Surveying, Leveling/grading & compaction etc. Asphalt Paving/ Gravel Paving work. All types of Concrete Work including Lighting pole foundation, concrete cable trench etc.",
     image: ServiceImg
   },
   {
@@ -46,7 +46,7 @@ export const servicesData = [
     title: "Grid Station",
     shortDescription: "Design and installation of modern grid stations.",
     longDescription:
-      "We deliver Grid Station solutions including substations, transformers, switchgear installation, protection systems, and SCADA integration. We ensure optimal performance and meet all power distribution requirements with minimal downtime.",
+      "Complete construction, erection, and maintenance of substations up to 132KV/220KV/500KV. Erection includes installation of Gantry structure,Transformer,Pole Insulator,Shunt reactor,Sprinkling system,Firefighting equipmen,Rigid bus bar circuit breaker,Current transformer,Disconnecting switch",
     image: ServiceImg
   },
   {
@@ -54,7 +54,7 @@ export const servicesData = [
     title: "Manpower (Manpower & EPTT)",
     shortDescription: "Skilled manpower and EPTT deployment for all works.",
     longDescription:
-      "Our Manpower services include deployment of skilled technicians, engineers, operators, and project staff along with Equipment, Plant, Tools, and Tackles (EPTT). We ensure timely availability and competence to match project requirements.",
+      "major problem facing the construction industry is the non-availability of skilled and semi-skilled manpower. Our record of previous and recently completed projects reveals the technical efficiency and superb skill of our staff. S&BSCC is in a strong position to rapidly mobilize manpower required for the works. The firm has up-to-date know-how and vast experience in the line of its activities as it has worked on all types of civil, electrical, and mechanical. projects. Its experience is in the following fields:- Grid Stations,Power Distribution Systems,Power Transmission Systems",
     image: ServiceImg
   }
 ];
