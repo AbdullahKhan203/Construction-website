@@ -133,6 +133,7 @@ export const metadata = {
     "Siddique & Bashir Sons Co delivers excellence in Electrical, Civil, Mechanical, and Telecommunication services with decades of experience and trust.",
   keywords: [
     "Siddique & Bashir Sons Co",
+    "Siddique and Bashir",
     "Construction Company",
     "Engineering Services",
     "Civil Engineering",
@@ -143,17 +144,20 @@ export const metadata = {
   ],
   authors: [{ name: "Siddique & Bashir Sons Co" }],
   creator: "Siddique & Bashir Sons Co",
+  icons:{
+    icon:"/assets/images/company-logo.png"
+  },
   publisher: "Siddique & Bashir Sons Co",
   robots: "index, follow",
   openGraph: {
     title: "Siddique & Bashir Sons Co – Construction & Engineering Experts",
     description:
       "Leading construction and engineering company offering Electrical, Civil, Mechanical, and Telecommunication services.",
-    url: "https://your-domain.com",
+    url: "https://construction-website-beta.vercel.app",
     siteName: "Siddique & Bashir Sons Co",
     images: [
       {
-        url: "https://your-domain.com/og-image.jpg",
+        url: "https://construction-website-beta.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Siddique & Bashir Sons Co – Construction & Engineering Experts",

@@ -27,6 +27,20 @@ import React from 'react'
 import ProjectCard from './components/ProjectCard'
 import ProjectsContainer from './components/ProjectsContainer'
 
+export const metadata = {
+  title: "Our Projects | Siddique & Bashir Sons Co",
+  description:
+    "Discover our successfully completed projects across Pakistan in construction, civil, mechanical, electrical, and telecommunication sectors.",
+  keywords: [
+    "Construction Projects Pakistan",
+    "Engineering Projects",
+    "Civil Works Portfolio",
+    "Electrical Projects",
+    "Siddique & Bashir Sons Projects",
+  ],
+};
+
+
 export default function Projects() {
   return (
     <div className='p-2'>

@@ -9,6 +9,21 @@ import ContactInfo from '@/app/contact/components/ContactInfo';
 import ConsultationInvite from '@/components/ConsultationInvite';
 import  EmbedMap from './components/EmbedMap'
 import ContactForm from './components/ContactForm';
+
+export const metadata = {
+  title: "Contact Us | Siddique & Bashir Sons Co",
+  description:
+    "Get in touch with Siddique & Bashir Sons Co for construction, civil, electrical, mechanical, or telecommunication inquiries. We are here to help.",
+  keywords: [
+    "Contact Siddique & Bashir Sons",
+    "Construction Company Contact",
+    "Engineering Company Pakistan",
+    "Civil Engineering Inquiries",
+    "Reach Siddique & Bashir",
+  ],
+};
+
+
 export default function Contact() {
   return (
     <div className='w-[90%] md:max-w-[960px] m-auto my-2' >
