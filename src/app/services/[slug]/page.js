@@ -18,7 +18,7 @@ export default function ServicePage({params}) {
      <p>{service.shortDescription}</p>
      <p>{service.longDescription}</p>
       
-      <div className="h-[500px] w-full relative">
+      <div  className="h-[500px] w-full relative">
       <Image src={service.image} className="h-[100%] w-[100%]" fill alt="project-img" />
       </div>
     
