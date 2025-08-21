@@ -75,4 +75,16 @@ export const posts = [
     image: FirstImage,
     width: "full", // ✅ admin option
   },
+  {
+    id: 7,
+    title: "Cost-Saving Tips for Commercial Construction Projects",
+    category: "Finance",
+    date: "Dec 20, 2024",
+    excerpt:
+      "Managing costs in commercial projects can be challenging. These tips will help you save money...",
+    content:
+      "👉 Full blog content goes here. You can write long text, include images, etc.",
+    image: secondImage,
+    width: "full", // ✅ admin option
+  },
 ];
