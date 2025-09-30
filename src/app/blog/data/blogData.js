@@ -1,6 +1,7 @@
 import FirstImage from "../../../../public/assets/images/Frame1.png";
 import secondImage from "../../../../public/assets/images/Frame2.png";
 import thirdImage from "../../../../public/assets/images/Frame3.png";
+import forthImage from "../../../../public/assets/images/natire5.jpg";
 
 export const posts = [
   {
@@ -24,7 +25,7 @@ export const posts = [
       "Choosing the right contractor can make or break your project. Here’s a guide to help you decide...",
     content:
       "👉 Full blog content goes here. You can write long text, include images, etc.",
-    image: secondImage,
+    image: forthImage,
     width: "half", // ✅ admin option
   },
   {

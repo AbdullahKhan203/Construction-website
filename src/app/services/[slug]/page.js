@@ -13,7 +13,7 @@ export default function ServicePage({params}) {
   return (
     <div className='max-w-[960px] m-auto my-6'>
      <div className="w-full h-[250px] flex justify-center items-center  border-2">
-    <h1 className="text-[48px]">{service.title}</h1>
+    <h1 className="text-[48px] text-center ">{service.title}</h1>
      </div>
      <p>{service.shortDescription}</p>
      <p>{service.longDescription}</p>

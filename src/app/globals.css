@@ -114,7 +114,12 @@ body {
   /* custom colors */
   --color-primary: #00FF00;
   /* --color-main: #dd261e; */
-  --color-main: #ff6900;
+  /* --color-main: #ff6900; */
+  --color-main: #da5149;
+  /* --color-main: #003049; */
+  /* --color-main: #ff6900; */
+  /* --color-main-light: color-mix(in srgb, var(--color-main) 80%, white 20%); */
+  --color-main-light: color-mix(in srgb, var(--color-main) 50%, white 20%);
   --font-Rubik: "Rubik", sans-serif;
   --font-SubHeading: "Montserrat", sans-serif;
   --font-ThirdHeading: "Playwrite VN Guides", cursive;
@@ -221,4 +226,31 @@ body {
 
 body.modal-open {
   overflow: hidden;
+}
+
+/* for ligter background of navbar option on hover */
+/* .bg-main-light {
+  background-color: var(--color-main-light);
+} */
+
+
+.bg-main {
+  background-color: var(--color-main);
+}
+
+.bg-main-light {
+  background-color: var(--color-main-light);
+}
+
+.text-main {
+  color: var(--color-main);
+}
+
+/* Hover versions */
+.hover\:bg-main-light:hover {
+  background-color: var(--color-main-light);
+}
+
+.hover\:bg-main:hover {
+  background-color: var(--color-main);
 }

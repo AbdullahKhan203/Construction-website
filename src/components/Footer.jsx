@@ -126,16 +126,16 @@ export default function Footer() {
       grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
         <div className='flex-1  bg-transpparent bg-opacity-80 p-2 rounded'>
           <div className="logo h-[150px] w-[150px] relative flex justify-center items-center">
-            {/* <Image 
+            <Image 
               src={companyLogo} 
               alt="company logo" 
               fill 
               className="object-contain"
-            /> */}
-            Logo
+            />
+            {/* Logo */}
           </div>
           <address className="not-italic text-lg text-gray-800 leading-relaxed">
-            <strong className="block mb-1">ABC Constructions</strong>
+            <strong className="block mb-1">Siddique and Bashir Sons</strong>
             123 Main Street, Block A<br />
             Islamabad, Pakistan<br />
 
