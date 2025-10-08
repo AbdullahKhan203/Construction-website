@@ -117,6 +117,8 @@ import companyLogo from '../../public/assets/images/company-logo.png'
 import footerProject from '../../public/assets/images/footer-project.jpeg'
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { IoMailOpenOutline } from "react-icons/io5";
+
 import { FaGlobe } from "react-icons/fa";
 // to-[#dd261e]
 export default function Footer() {
@@ -136,19 +138,21 @@ export default function Footer() {
           </div>
           <address className="not-italic text-lg text-gray-800 leading-relaxed">
             <strong className="block mb-1">Siddique and Bashir Sons</strong>
-            123 Main Street, Block A<br />
-            Islamabad, Pakistan<br />
+            St # 1,Gulshan-e-Multan Colony,opp Maham Science School,40 Footi Road<br />
+            Samijabad,Multan<br />
+            Office 3,1st Floor,Plaza 42, Urban Boulevard,<br />
+            Bahria Enclave,Islamabad<br />
 
             <a
               href="tel:+92511234567"
               className="flex items-center gap-2 hover:underline text-sm text-[#dd261e]"
             >
               <FaPhone className="w-4 h-4 shrink-0" />
-              <span>(051) 123-4567</span>
+              <span>0316-0670670</span>
             </a>
 
             <a href="mailto:info@abcconstructions.com" className="text-blue-600 hover:underline flex items-center gap-2">
-              <MdEmail /> <span>info@abcconstructions.com</span>
+              <IoMailOpenOutline  className="w-4 h-4 shrink-0" /> <span>usama.khan86277@gmail.com</span>
             </a>
 
             <a
@@ -157,7 +161,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline flex items-center gap-2"
             >
-              <FaGlobe /> <span>www.abcconstructions.com</span>
+              <FaGlobe  className="w-4 h-4 shrink-0" /> <span>www.siddiqueandbashirsons.com</span>
             </a>
           </address>
         </div>

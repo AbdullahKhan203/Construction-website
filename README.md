@@ -47,3 +47,6 @@ max-width:960px;
       'xl': '1280px',
       '2xl': '1536px',
 
+
+
+<!-- for file search use Ctrl + P -->

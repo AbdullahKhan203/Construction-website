@@ -567,7 +567,7 @@ const Navbar = () => {
                  <Image src={CompanyLogo} fill alt="siddique and bashir sons logo" />
                   {/* Logo */}
                 </div>
-                <span className="leading-[15px]">Siddique and <br/> Bashir Sons</span>
+                <span className="leading-[15px]">Siddique and <br/> Bashir Sons<br />construction CO.</span>
               </Link>
               
               <button 

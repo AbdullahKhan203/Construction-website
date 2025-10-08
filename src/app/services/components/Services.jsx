@@ -14,7 +14,7 @@ industrial solution</h1>
 
 
      {data.map((item,i)=>{
-         return <ServiceCard key={i} title={item.title} description={item.shortDescription} img={item.image} slug={item.slug} />
+         return <ServiceCard key={i} title={item.title} description={item.shortDescription} img={item.image[0]} slug={item.slug} />
      })}
    
    

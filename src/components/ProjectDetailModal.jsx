@@ -942,6 +942,311 @@
 
 
 
+// 1 oct code
+// 'use client';
+
+// import { useEffect } from 'react';
+// import Image from 'next/image';
+// import { IoClose } from 'react-icons/io5';
+
+// export default function ProjectDetailModal({ project, onClose }) {
+//   if (!project) return null;
+
+//   useEffect(() => {
+//     document.body.classList.add('modal-open');
+//     return () => {
+//       document.body.classList.remove('modal-open');
+//     };
+//   }, []);
+
+//   const { images = {}, client, consultant, startingDate, energizationDate } = project;
+//   const imageArray = Object.values(images);
+
+//   // Group images in rows of two
+//   const imageRows = [];
+//   for (let i = 0; i < imageArray.length; i += 2) {
+//     if (i + 1 < imageArray.length) {
+//       imageRows.push([imageArray[i], imageArray[i + 1]]);
+//     } else {
+//       imageRows.push([imageArray[i]]);
+//     }
+//   }
+
+//   return (
+//     <div className="fixed inset-0 z-[1000] bg-black/70 flex justify-center overflow-y-auto py-10 px-4">
+//       <div className="bg-white rounded-xl shadow-lg w-full max-w-5xl relative">
+//         {/* Close Button */}
+//         <button
+//           onClick={onClose}
+//           className="absolute top-4 right-4 text-white bg-black rounded-full p-2 z-[999] hover:bg-gray-800"
+//         >
+//           <IoClose size={24} />
+//         </button>
+
+//         {/* Hero Image */}
+//         {project.image?.src && (
+//           <div className="w-full">
+//             <Image
+//               src={project.image.src}
+//               alt={project.title}
+//               width={1200}
+//               height={600}
+//               className="w-full h-auto rounded-t-xl object-contain"
+//               priority
+//             />
+//           </div>
+//         )}
+
+//         {/* Content */}
+//         <div className="p-6 space-y-4 bg-white rounded-b-xl">
+//           <p className="text-sm font-medium text-gray-500 uppercase">{project.company}</p>
+//           <h2 className="text-2xl font-bold text-gray-900">{project.title}</h2>
+//           <p className="text-sm font-semibold text-blue-600">{project.category}</p>
+//           <p className="text-gray-700 text-base leading-relaxed whitespace-pre-wrap">
+//             {project.description}
+//           </p>
+
+//           {/* Project Details */}
+//           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+//             {client && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Client</h4>
+//                 <p className="text-gray-800">{client}</p>
+//               </div>
+//             )}
+//             {consultant && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Consultant</h4>
+//                 <p className="text-gray-800">{consultant}</p>
+//               </div>
+//             )}
+//             {startingDate && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Starting Date</h4>
+//                 <p className="text-gray-800">{startingDate}</p>
+//               </div>
+//             )}
+//             {energizationDate && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Energization Date</h4>
+//                 <p className="text-gray-800">{energizationDate}</p>
+//               </div>
+//             )}
+//           </div>
+
+//           {/* Responsive Image Grid */}
+//           <div className="mt-6 space-y-4">
+//             {imageRows.map((row, index) => (
+//               <div key={index} className="flex flex-col sm:flex-row gap-4">
+//                 {row.map((img, idx) => {
+//                   const isEven = index % 2 === 0;
+//                   const widthClass =
+//                     row.length === 1
+//                       ? 'w-full'
+//                       : idx === 0
+//                         ? isEven
+//                           ? 'sm:w-[60%]'
+//                           : 'sm:w-[40%]'
+//                         : isEven
+//                           ? 'sm:w-[40%]'
+//                           : 'sm:w-[60%]';
+
+//                   return (
+//                     <div
+//                       key={idx}
+//                       className={`rounded-lg ${widthClass} w-full h-[200px] sm:h-[300px]`}
+//                       style={{
+//                         backgroundImage: `url(${img.src || img})`,
+//                         backgroundSize: 'cover',
+//                         backgroundRepeat: 'no-repeat',
+//                         backgroundPosition: 'center',
+//                       }}
+//                     />
+//                   );
+//                 })}
+//               </div>
+//             ))}
+//           </div>
+
+//           {/* Certificate Section */}
+//           <div className="mt-6 p-6 bg-gray-100 rounded-lg shadow-sm">
+//             <h3 className="text-xl font-semibold text-gray-800 mb-2">
+//               Project Completion Certificate
+//             </h3>
+//             <p className="text-gray-700 mb-4 text-sm leading-relaxed">
+//               It is a long-established fact that a reader will be distracted by the readable content
+//               of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+//               more-or-less normal distribution of letters, as opposed to using.
+//             </p>
+//             <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded">
+//               Download
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+// 'use client';
+
+// import { useEffect } from 'react';
+// import Image from 'next/image';
+// import { IoClose } from 'react-icons/io5';
+
+// export default function ProjectDetailModal({ project, onClose }) {
+//   if (!project) return null;
+
+//   useEffect(() => {
+//     document.body.classList.add('modal-open');
+//     return () => {
+//       document.body.classList.remove('modal-open');
+//     };
+//   }, []);
+
+//   const { images = {}, client, consultant, startingDate, energizationDate } = project;
+//   const imageArray = Object.values(images);
+
+//   // Group images in rows of two
+//   const imageRows = [];
+//   for (let i = 0; i < imageArray.length; i += 2) {
+//     if (i + 1 < imageArray.length) {
+//       imageRows.push([imageArray[i], imageArray[i + 1]]);
+//     } else {
+//       imageRows.push([imageArray[i]]);
+//     }
+//   }
+
+//   return (
+//     <div className="fixed inset-0 z-[1000] bg-black/70 flex justify-center overflow-y-auto py-10 px-4">
+//       <div className="bg-white rounded-xl shadow-lg w-full max-w-5xl relative">
+//         {/* Close Button */}
+//         <button
+//           onClick={onClose}
+//           className="absolute top-4 right-4 text-white bg-black rounded-full p-2 z-[999] hover:bg-gray-800"
+//         >
+//           <IoClose size={24} />
+//         </button>
+
+//         {/* Hero Image */}
+//         {project.image?.src && (
+//           <div className="relative w-full h-[400px] rounded-t-xl overflow-hidden">
+//             <Image
+//               src={project.image.src}
+//               alt={project.title}
+//               fill
+//               // className="object-contain"
+//               priority
+//             />
+//           </div>
+//         )}
+
+//         {/* Content */}
+//         <div className="p-6 space-y-4 bg-white rounded-b-xl">
+//           <p className="text-sm font-medium text-gray-500 uppercase">{project.company}</p>
+//           <h2 className="text-2xl font-bold text-gray-900">{project.title}</h2>
+//           <p className="text-sm font-semibold text-blue-600">{project.category}</p>
+//           <p className="text-gray-700 text-base leading-relaxed whitespace-pre-wrap">
+//             {project.description}
+//           </p>
+
+//           {/* Project Details */}
+//           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+//             {client && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Client</h4>
+//                 <p className="text-gray-800">{client}</p>
+//               </div>
+//             )}
+//             {consultant && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Consultant</h4>
+//                 <p className="text-gray-800">{consultant}</p>
+//               </div>
+//             )}
+//             {startingDate && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Starting Date</h4>
+//                 <p className="text-gray-800">{startingDate}</p>
+//               </div>
+//             )}
+//             {energizationDate && (
+//               <div>
+//                 <h4 className="text-gray-500 text-sm font-semibold">Energization Date</h4>
+//                 <p className="text-gray-800">{energizationDate}</p>
+//               </div>
+//             )}
+//           </div>
+
+//           {/* Responsive Image Grid */}
+//           <div className="mt-6 space-y-4">
+//             {imageRows.map((row, index) => (
+//               <div key={index} className="flex flex-col sm:flex-row gap-4">
+//                 {row.map((img, idx) => {
+//                   const isEven = index % 2 === 0;
+//                   const widthClass =
+//                     row.length === 1
+//                       ? 'w-full'
+//                       : idx === 0
+//                         ? isEven
+//                           ? 'sm:w-[60%]'
+//                           : 'sm:w-[40%]'
+//                         : isEven
+//                           ? 'sm:w-[40%]'
+//                           : 'sm:w-[60%]';
+
+//                   return (
+//                     <div
+//                       key={idx}
+//                       className={`relative ${widthClass} aspect-square rounded-lg overflow-hidden`}
+//                     >
+//                       <Image
+//                         src={img.src || img}
+//                         alt={`Project image ${idx + 1}`}
+//                         fill
+//                         className="object-cover"
+//                       />
+//                     </div>
+//                   );
+//                 })}
+//               </div>
+//             ))}
+//           </div>
+
+//           {/* Certificate Section */}
+//           <div className="mt-6 p-6 bg-gray-100 rounded-lg shadow-sm">
+//             <h3 className="text-xl font-semibold text-gray-800 mb-2">
+//               Project Completion Certificate
+//             </h3>
+//             <p className="text-gray-700 mb-4 text-sm leading-relaxed">
+//               It is a long-established fact that a reader will be distracted by the readable content
+//               of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+//               more-or-less normal distribution of letters, as opposed to using.
+//             </p>
+//             <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded">
+//               Download
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
 
 'use client';
 
@@ -1054,14 +1359,15 @@ export default function ProjectDetailModal({ project, onClose }) {
                   return (
                     <div
                       key={idx}
-                      className={`rounded-lg ${widthClass} w-full h-[200px] sm:h-[300px]`}
-                      style={{
-                        backgroundImage: `url(${img.src || img})`,
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center',
-                      }}
-                    />
+                      className={`relative ${widthClass} aspect-square rounded-lg overflow-hidden`}
+                    >
+                      <Image
+                        src={img.src || img}
+                        alt={`Project image ${idx + 1}`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
                   );
                 })}
               </div>
