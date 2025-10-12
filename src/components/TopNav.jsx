@@ -22,7 +22,7 @@ export default function TopNav() {
     <div className='max-w-[960px] m-auto flex justify-between'>
        <div className="flex ml-2">
          <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><FaPhone className='mx-1'/><p >0316-0670670</p></span>
-         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><IoMdMail className='mx-1' /><p>usama.khan86277@gmail.com</p></span>
+         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px] hidden smx:flex '><IoMdMail className='mx-1' /><p>usama.khan86277@gmail.com</p></span>
       </div>
       <div className="right-side  flex mr-2 ">
          <span className='flex items-center-safe  mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><Link href="/faq">FAQ</Link></span>

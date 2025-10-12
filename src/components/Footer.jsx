@@ -177,7 +177,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline flex items-center gap-2"
             >
-              <FaGlobe  className="w-4 h-4 shrink-0" /> <span>www.siddiqueandbashirsons.com</span>
+              <FaGlobe  className="w-4 h-4 shrink-0 break-all leading-tight" /> <span>www.siddiqueandbashirsons.com</span>
             </a>
           </address>
         </div>
