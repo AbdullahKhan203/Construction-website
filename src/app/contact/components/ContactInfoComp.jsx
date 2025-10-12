@@ -10,7 +10,7 @@ export default function ContactInfoComp({Icon,heading,detailOne,detailTwo,linkNa
         <div className='z-2 absolute w-[100%] h-[100%]  flex flex-col  justify-center items-center text-center text-white'>
             <h1 className='text-[24px]'>{heading}</h1>
             <p>{detailOne || ""}</p>
-            <p>{detailTwo || ""}</p>
+            <p className='break-words'>{detailTwo || ""}</p>
             <a className='font-bold text-main' href="#">{linkName || ""}</a>
         </div>
     </div>
