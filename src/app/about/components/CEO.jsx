@@ -13,8 +13,8 @@ export default function Ceo() {
       {/* Content */}
       <div className='h-auto md:h-[420px] mx-auto md:mx-0 w-[100%] md:max-w-[320px] lg:max-w-[360px] py-8 px-2'>
         <p className='text-[16px] text-main'>About CEO</p>
-        <h2 className='text-[36px] mt-3'>Leading with Vision and Integrity</h2>
-        <p className='text-[15px]'>
+        <h2 className='text-[36px] mt-3  md:leading-[0.9] lg:leading-[1.1]'>Leading with Vision and Integrity</h2>
+        <p className='text-[15px] mt-3'>
           Our CEO drives the company’s strategic direction with a focus on innovation,
           sustainability, and excellence. With years of leadership experience, the CEO ensures
           that every project reflects our core values and commitment to client satisfaction.

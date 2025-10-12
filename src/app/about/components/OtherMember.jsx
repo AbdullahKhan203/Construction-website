@@ -13,8 +13,8 @@ export default function OtherMember() {
       {/* Content */}
       <div className='h-auto md:h-[400px] mx-auto md:mx-0 w-[100%] md:max-w-[300px] lg:max-w-[340px] py-8 px-2'>
         <p className='text-[16px] text-main'>About Team Member</p>
-        <h2 className='text-[32px] mt-3'>Empowering Growth and Excellence</h2>
-        <p className='text-[15px]'>
+        <h2 className='text-[32px] mt-3  md:leading-[0.9] lg:leading-[1.1]'>Empowering Growth and Excellence</h2>
+        <p className='text-[15px]  mt-3'>
           Our team members play a vital role in achieving our mission. Their dedication,
           creativity, and technical expertise ensure that every project we deliver meets the
           highest standards of quality and safety.
