@@ -56,10 +56,10 @@ export default function Founder() {
       </div>
 
       {/* Text Section */}
-      <div className='h-auto md:h-[500px] mx-auto md:mx-0 w-[100%] md:max-w-[350px] lg:max-w-[400px] py-10 px-1 mr-0 lg:mr-[-20px] leading-[1.3]'>
+      <div className='h-auto md:h-[500px] mx-auto md:mx-0 w-[100%] md:max-w-[350px] lg:max-w-[400px] py-10 px-1 mr-0 lg:mr-[-20px]'>
         <p className='text-[16px] text-main'>About Company</p>
-        <h2 className='text-[44px] mt-3 md:leading-[0.9] lg:leading-[1.1]'>Deliver innovative Industrial solution</h2>
-        <p className='text-[15px] md:leading-[1.4] lg:leading-[1.5] mt-3'>
+        <h2 className='text-[44px] mt-1 md:leading-[0.9] lg:leading-[1.1]'>Deliver innovative Industrial solution</h2>
+        <p className='text-[15px] md:leading-[1.4] lg:leading-[1.5] mt-1'>
           Siddique & Bashir Sons Construction Company is a constituent 
           company of a group active in the field of construction and industries. 
           The company includes a brilliant professional team for the purpose 
