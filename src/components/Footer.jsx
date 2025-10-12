@@ -154,6 +154,22 @@ export default function Footer() {
             <a href="mailto:info@abcconstructions.com" className="text-blue-600 hover:underline flex items-center gap-2">
               <IoMailOpenOutline  className="w-4 h-4 shrink-0" /> <span>usama.khan86277@gmail.com</span>
             </a>
+            {/* <a href="mailto:info@abcconstructions.com" className="text-blue-600 hover:underline flex items-center gap-2 text-wrap">
+              <IoMailOpenOutline  className="w-4 h-4 shrink-0" /> <span className='text-wrap'>sandbsonsconstructioncompany1@gmail.com
+</span>
+            </a> */}
+       <a
+  href="mailto:info@abcconstructions.com"
+  className="text-blue-600 hover:underline flex items-start gap-2"
+>
+  <IoMailOpenOutline className="w-4 h-4 shrink-0 align-middle mt-0.5" />
+  <span className="break-words min-w-0 leading-tight">
+    sandbsonsconstructioncompany1@gmail.com
+  </span>
+</a>
+
+
+
 
             <a
               href="https://www.abcconstructions.com"

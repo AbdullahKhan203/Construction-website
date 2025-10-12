@@ -1264,7 +1264,7 @@ export default function ProjectDetailModal({ project, onClose }) {
     };
   }, []);
 
-  const { images = {}, client, consultant, startingDate, energizationDate } = project;
+  const { images = {}, client, consultant, startingDate, energizationDate,contractor } = project;
   const imageArray = Object.values(images);
 
   // Group images in rows of two
@@ -1335,6 +1335,12 @@ export default function ProjectDetailModal({ project, onClose }) {
               <div>
                 <h4 className="text-gray-500 text-sm font-semibold">Energization Date</h4>
                 <p className="text-gray-800">{energizationDate}</p>
+              </div>
+            )}
+            {contractor && (
+              <div>
+                <h4 className="text-gray-500 text-sm font-semibold">Contractor</h4>
+                <p className="text-gray-800">{contractor}</p>
               </div>
             )}
           </div>

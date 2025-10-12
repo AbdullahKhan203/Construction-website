@@ -7,7 +7,7 @@ import HeroCoursel from './HeroCoursel'; // make sure this is used here now
 
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
-  const shouldHideHero = pathname.startsWith('/services/') || pathname.startsWith('/blog/');
+  const shouldHideHero = pathname.startsWith('/services/') || pathname.startsWith('/blog/') || pathname.startsWith('/faq') ;
 
   return (
     <>

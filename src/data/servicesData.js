@@ -22,8 +22,6 @@ import electricalimg4 from '../../public/assets/images/services-images/electrica
 import electricalimg5 from '../../public/assets/images/services-images/electrical-imagas/5.jpg'
 import electricalimg6 from '../../public/assets/images/services-images/electrical-imagas/6.jpg'
 import electricalimg7 from '../../public/assets/images/services-images/electrical-imagas/7.jpg'
-import electricalimg8 from '../../public/assets/images/services-images/electrical-imagas/8.jpg'
-import electricalimg9 from '../../public/assets/images/services-images/electrical-imagas/9.jpg'
 
 import gridStationImg1 from '../../public/assets/images/services-images/grid-station-images/1.jpg'
 import gridStationImg2 from '../../public/assets/images/services-images/grid-station-images/2.jpg'
@@ -77,7 +75,7 @@ export const servicesData = [
     shortDescription: "Complete electrical solutions for all project scales.",
     longDescription:
       "Supply and installation of sub-stations, generators switch gear control & protection system, panel boards, Electrical distribution system, External & internal Electrification, Over Head Transmission Line, Conductor stringing, OPGW Stringing, Street Lighting, Air Conditioning, Fire Alarm system, Laying & Pulling of Lv, Mv & Hv Power cables, Termination, Splicing and Testing of Power cables. Supply And installation of cable Trays, Cable Ladders, Conduits EMT, RGS & Flexible Metallic Conduits Fitting. Supply and installations of CCTV systems fire alarm system Operation and Maintenance services for Electrical distribution system. ",
-    image: [electricalimg1,electricalimg2,electricalimg3,electricalimg4,electricalimg5,electricalimg6,electricalimg7,electricalimg8,electricalimg9]
+    image: [electricalimg1,electricalimg2,electricalimg3,electricalimg4,electricalimg5,electricalimg6,electricalimg7]
   },
   {
     slug: "mechanical-work",
@@ -93,13 +91,13 @@ export const servicesData = [
     shortDescription: "End-to-end civil construction and infrastructure solutions.",
     longDescription:
       "Development of civil infrastructure is always our key priority; we have proven capability to deliver projects under this domain. Our experienced team of professionals always works hard to deliver the projects, keeping in mind a sustainable future. S&BSCC is up to date with knowledge and expertise to carry out Civil Works of 220 / 500 kV Transmission Lines.  Similarly Control House Building / Offices and Switchyard Foundation Work for Grid Stations. We have adequate expertise for the construction of Control House Building for 220/500kV Switchyards of Power Houses, Cable Trenches, and Earthing works.",
-    image: [civilImg1,civilImg2,civilImg3,civilImg4,civilImg5,civilImg6,civilImg7,civilImg8,telecommunicationimg9]
+    image: [civilImg1,civilImg2,civilImg3,civilImg4,civilImg5,civilImg6,civilImg7,civilImg8]
   },
   {
     slug: "telecommunication-work",
     title: "Telecommunication Work",
     longDescription:
-      "We provide reliable telecommunication infrastructure solutions to keep your business connected. From designing and installing structured cabling systems to setting up fiber optic networks and wireless communication systems, our expert team ensures seamless connectivity and efficient data transmission. Whether for commercial, industrial, or residential projects, we deliver high-quality, scalable, and future-ready telecom systems that meet the latest industry standards. Stay connected with our innovative telecommunication solutions designed to support your growth.",
+      "We provide reliable telecommunication infrastructure solutions to keep your business connected and secure. From designing and installing structured cabling systems to setting up fiber optic networks, wireless communication systems, CCTV surveillance, and advanced security systems, our expert team ensures seamless connectivity and safety across all environments. Whether for commercial, industrial, or residential projects, we deliver high-quality, scalable, and future-ready telecom and security solutions that meet the latest industry standards. Stay connected and protected with our innovative telecommunication and security services designed to support your growth.",
     image: [telecommunicationimg1,telecommunicationimg2,telecommunicationimg3,telecommunicationimg4,telecommunicationimg5,telecommunicationimg6,telecommunicationimg7,telecommunicationimg8,telecommunicationimg9]
   },
   {
@@ -107,7 +105,7 @@ export const servicesData = [
     title: "Transmission Line",
     shortDescription: "High-voltage line construction and maintenance services.",
     longDescription:
-      "S&B Sons Construction Company is a leading provider of specialized contracting services, delivering infrastructure solutions to electric power. The company provides a comprehensive range of services, including the design, installation, maintenance, and repair of virtually every type of infrastructure. With approximately 300 employees, and field operations across Pakistan. S&B sons Construction Company has the manpower, resources and expertise to complete projects that are local, regional, national, or even international in scope. All types of earth work including Excavation, Disposal and Backfilling. Site development/Surveying, Leveling/grading & compaction etc. Asphalt Paving/ Gravel Paving work. All types of Concrete Work including Lighting pole foundation, concrete cable trench etc.",
+      "S&B Sons Construction Company is a leading provider of specialized contracting services, delivering infrastructure solutions to electric power. The company provides a comprehensive range of services, including the design, installation, maintenance, and repair of virtually every type of infrastructure. S&B Sons Construction Company has the manpower, resources, and expertise to complete projects that are local, regional, national, or even international in scope. All types of earth work including excavation, disposal, and backfilling, site development/surveying, leveling, grading, and compaction are performed with precision. Our transmission line services also include foundation works, tower assembly, tower erection, stringing works, and testing to ensure reliable power delivery and long-term performance.",
    image: [transmitionImg1,transmitionImg2,transmitionImg3,transmitionImg4,transmitionImg5,transmitionImg6,transmitionImg7]
   },
   {

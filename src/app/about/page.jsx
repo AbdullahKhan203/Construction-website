@@ -1,5 +1,8 @@
 import React from 'react'
 import Founder from './components/Founder'
+import CEO from './components/CEO';
+import OtherMember from './components/OtherMember';
+import Achievements from './components/Achievements';
 
 export const metadata = {
   title: "About Us | Siddique & Bashir Sons Co",
@@ -18,6 +21,9 @@ export default function About() {
   return (
     <>
     <Founder />
+    <Achievements />
+    <CEO />
+    <OtherMember />
     </>
   )
 }

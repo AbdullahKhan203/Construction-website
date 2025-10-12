@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
@@ -20,12 +21,11 @@ export default function TopNav() {
     <div className='w-full   bg-main text-white'>
     <div className='max-w-[960px] m-auto flex justify-between'>
        <div className="flex ml-2">
-         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><FaPhone className='mx-1'/><p >0123456789</p></span>
-         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><IoMdMail className='mx-1' /><p>abc@gmail.com</p></span>
+         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><FaPhone className='mx-1'/><p >0316-0670670</p></span>
+         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><IoMdMail className='mx-1' /><p>usama.khan86277@gmail.com</p></span>
       </div>
-      <div className="right-side  flex mr-2">
-         <span className='flex items-center-safe mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'>Blog</span>
-         <span className='flex items-center-safe  mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'>FAQ</span>
+      <div className="right-side  flex mr-2 ">
+         <span className='flex items-center-safe  mx-1 smx:mx-4 text-[12px] smx:text-[16px] md:text-[18px]'><Link href="/faq">FAQ</Link></span>
       </div>
      
     </div>

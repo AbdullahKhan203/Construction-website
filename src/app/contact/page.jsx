@@ -52,13 +52,14 @@ export default function Contact() {
                </form> */}
                <ContactForm />
             </div>
-            <div className='w-[100%] sm:w-[60%]  md:w-[240px]  '>
+            <div className='w-[100%] sm:w-[60%]  md:w-[240px]'>
                 {/* for region and local address */}
-              <Info icon={AiOutlineHome}  first="Buttonwood, California." second="Rosemead, CA 91770" />
+              <Info icon={AiOutlineHome}  first=" St # 1,Gulshan-e-Multan Colony,opp Maham Science School,40 Footi Road
+            Samijabad,Multan" second="" />
                 {/* phone and phone time */}
-              <Info icon={FaMobileAlt}  first="+1 253 565 2365" second="Mon to Fri 9am to 6pm" />
+              <Info icon={FaMobileAlt}  first="0316-0670670" second="Mon to Fri 9am to 6pm" />
                 {/* email and Text */}
-              <Info icon={MdOutlineMailOutline}  first="support@colorlib.com" second="Send us your query anytime!
+              <Info icon={MdOutlineMailOutline}  first="usama.khan86277@gmail.com" second="Send us your query anytime!
 
 " />
             </div>

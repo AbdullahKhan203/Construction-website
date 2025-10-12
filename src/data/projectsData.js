@@ -661,11 +661,12 @@ export const projectsData = [
     consultant: "China Electric Design",
     startingDate: "2018-06-01",
     energizationDate: "2020-12-15",
+    contractor: "China Equipment and Technology",
   },
   {
     title: "500KV Jamshoro 15 Km Stringing Work",
     company: "National Power Construction Company (NPCC)", // unchanged
-    category: "transmission",
+    category: "Electrical",
     image: secondProjectImg1,
     description: "15 km transmission line stringing to enhance energy reliability in Jamshoro region.",
     images: {
@@ -676,12 +677,13 @@ export const projectsData = [
     consultant: "NESPAK",
     startingDate: "2019-03-15",
     energizationDate: "2021-02-20",
+     contractor: "chinese firm",
   },
   {
     title: "380KV D. G Khan 24KM Stringing of OPGW & Conductor",
     // This is the 3rd item — company set to the previous last's company (Unknown)
     company: "Unknown",
-    category: "electrical",
+    category: "Electrical",
     image: ProjectImgThree,
     description: "Complete OPGW and conductor stringing for 24km of 380KV line in DG Khan.",
     images: {
@@ -691,12 +693,13 @@ export const projectsData = [
     consultant: "Local Consultants",
     startingDate: "2020-01-01",
     energizationDate: "2021-06-30",
+     contractor: "chinese firm",
   },
   {
     title: "132kv Kot Addu to Layyah",
     // was company of 4th -> now moved to 4th (CPP moved here)
     company: "CPP",
-    category: "civil",
+    category: "Electiacal",
     image: fotthProjectImg1,
     description: "Civil foundation and tower erection between Kot Addu and Layyah.",
     images: {fotthProjectImg1,fotthProjectImg2,fotthProjectImg3},
@@ -704,11 +707,12 @@ export const projectsData = [
     consultant: "G3 Engineering",
     startingDate: "2020-09-01",
     energizationDate: "2021-12-01",
+     contractor: "chinese firm",
   },
   {
     title: "132kv Rohri 220 grid to onward factory Unit, 78 towers",
     company: "Habib Khan Construction Company", // moved from previous 4th -> now 5th
-    category: "grid",
+    category: "Electiacal and Mechanical",
     image: ProjectImgOne,
     description: "Installation of 78 transmission towers from Rohri grid to industrial unit.",
     images: {
@@ -719,11 +723,12 @@ export const projectsData = [
     consultant: "Techno Engineering",
     startingDate: "2021-01-10",
     energizationDate: "2022-03-20",
+     contractor: "chinese firm",
   },
   {
     title: "132kv Sumandari to Faisalabad 27Km",
     company: "Faisalabad Electric Power Company (FESCO)", // moved forward
-    category: "telecom",
+    category: "Electiacal",
     image: ProjectImgThree,
     description: "Telecom integrated transmission line setup from Sumandari to Faisalabad.",
     images: {},
@@ -731,11 +736,12 @@ export const projectsData = [
     consultant: "Icon Engineering",
     startingDate: "2022-05-01",
     energizationDate: "2023-01-01",
+     contractor: "chinese firm",
   },
   {
     title: "132kv Muridke to Aimanabad 25Km",
     company: "Gujranwala Electric Power Company (Gepco)", // moved forward
-    category: "civil",
+    category: "Electiacal",
     image: ProjectImgTwo,
     description: "Joint venture project focused on civil works and tower construction.",
     images: {
@@ -746,11 +752,12 @@ export const projectsData = [
     consultant: "Local Design House",
     startingDate: "2019-07-01",
     energizationDate: "2020-10-15",
+     contractor: "chinese firm",
   },
   {
     title: "220kv Karora Hydro Power Plant to T/Line (Besham Qila)",
     company: "G.R.C-Tired (Joint venture)", // moved forward
-    category: "mechanical",
+    category: "Electiacal and Mechanical",
     image: ProjectImgOne,
     description: "Transmission from hydro plant to grid with mechanical support works.",
     images: {
@@ -761,6 +768,7 @@ export const projectsData = [
     consultant: "HydroTech",
     startingDate: "2020-03-01",
     energizationDate: "2021-08-10",
+     contractor: "chinese firm",
   },
   {
     title: "132kv Ghotki to Besham 45Km",
@@ -773,6 +781,7 @@ export const projectsData = [
     consultant: "Acon Engineering",
     startingDate: "2021-02-01",
     energizationDate: "2022-09-15",
+     contractor: "chinese firm",
   },
   {
     title: "132 kv transmission line nara grid station rohri 33 km",
@@ -785,6 +794,7 @@ export const projectsData = [
     consultant: "Al-Madina Consultants",
     startingDate: "2022-01-01",
     energizationDate: "2023-04-10",
+     contractor: "chinese firm",
   },
   {
     title: "132kv transmission line surab to kalat 75km",
@@ -797,6 +807,7 @@ export const projectsData = [
     consultant: "Max Engineers",
     startingDate: "2019-11-01",
     energizationDate: "2021-01-25",
+     contractor: "chinese firm",
   },
   {
     title: "132 kv transmission line khuzdar to naal 45km",
@@ -811,6 +822,7 @@ export const projectsData = [
     consultant: "Max Engineers",
     startingDate: "2020-06-01",
     energizationDate: "2021-10-30",
+     contractor: "chinese firm",
   },
   {
     title: "132kv transmission line khanozai to bostan 114 towers",
@@ -823,6 +835,7 @@ export const projectsData = [
     consultant: "Local Infra Consultants",
     startingDate: "2022-04-01",
     energizationDate: "2023-08-01",
+     contractor: "chinese firm",
   },
   {
     title: "132 kv sukkur arain grid station to industrial state 25km",
@@ -835,6 +848,7 @@ export const projectsData = [
     consultant: "Chinese Substation Experts",
     startingDate: "2021-08-01",
     energizationDate: "2022-12-01",
+     contractor: "chinese firm",
   },
   {
     title: "HVDC line Lot#07 Hasilpur to Pakpattan Maintenance",
@@ -847,6 +861,7 @@ export const projectsData = [
     consultant: "HydroChina",
     startingDate: "2022-03-01",
     energizationDate: "2023-07-01",
+     contractor: "chinese firm",
   },
   {
     title: "220kv Kabirwala Single circuit Dis bundle 8 Tower ReInstall",
@@ -859,6 +874,7 @@ export const projectsData = [
     consultant: "Infrastructure Experts",
     startingDate: "2020-02-01",
     energizationDate: "2021-06-01",
+     contractor: "chinese firm",
   },
   {
     title: "132 kv Lahore Bijli ghar chowk",
@@ -871,5 +887,6 @@ export const projectsData = [
     consultant: "Unknown",
     startingDate: "2023-01-01",
     energizationDate: "2023-11-01",
+     contractor: "chinese firm",
   },
 ];
