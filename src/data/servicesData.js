@@ -28,7 +28,7 @@ import gridStationImg2 from '../../public/assets/images/services-images/grid-sta
 import gridStationImg3 from '../../public/assets/images/services-images/grid-station-images/3.jpg'
 import gridStationImg4 from '../../public/assets/images/services-images/grid-station-images/4.jpg'
 import gridStationImg5 from '../../public/assets/images/services-images/grid-station-images/5.jpg'
-import gridStationImg6 from '../../public/assets/images/services-images/grid-station-images/6.jpg'
+// import gridStationImg6 from '../../public/assets/images/services-images/grid-station-images/6.jpg'
 
 import civilImg1 from '../../public/assets/images/services-images/civil-imges/1.jpg'
 import civilImg2 from '../../public/assets/images/services-images/civil-imges/2.jpg'
@@ -114,7 +114,7 @@ export const servicesData = [
     shortDescription: "Design and installation of modern grid stations.",
     longDescription:
       "Complete construction, erection, and maintenance of substations up to 132KV/220KV/500KV. Erection includes installation of Gantry structure,Transformer,Pole Insulator,Shunt reactor,Sprinkling system,Firefighting equipmen,Rigid bus bar circuit breaker,Current transformer,Disconnecting switch",
-    image: [gridStationImg1,gridStationImg2,gridStationImg3,gridStationImg4,gridStationImg5,gridStationImg6]
+    image: [gridStationImg1,gridStationImg2,gridStationImg3,gridStationImg4,gridStationImg5]
   },
   {
     slug: "manpower-services",
