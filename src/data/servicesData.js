@@ -1,5 +1,5 @@
 // src/data/servicesData.js
-import ServiceImg from '../../public/assets/images/Frame1.jpg'
+// import ServiceImg from '../../public/assets/images/Frame1.jpg'
 
 import telecommunicationimg1 from '../../public/assets/images/services-images/telecommunication-imgs/1.jpg'
 import telecommunicationimg2 from '../../public/assets/images/services-images/telecommunication-imgs/2.jpg'

@@ -151,9 +151,9 @@
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import firstImage from '../../../../public/assets/images/Frame1.png';
-import secondImg from '../../../../public/assets/images/Frame2.png';
-import thirdImg from '../../../../public/assets/images/Frame3.png';
+import firstImage from '../../../../public/assets/images/Hero1.jpg';
+import secondImg from '../../../../public/assets/images/Hero2.png';
+import thirdImg from '../../../../public/assets/images/Hero3.jpg';
 
 const pageHeadings = {
   '/home': 'Welcome to the Home Page',
