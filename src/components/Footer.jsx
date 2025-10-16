@@ -197,10 +197,10 @@ export default function Footer() {
 
         <div className='flex-1 bg-transpparent bg-opacity-80 p-2 rounded'>
           <h2 className='text-lg font-bold'>Updates</h2>
-          {lastThree.map((item, i) => (
+          {lastThree.map((item, i)=> (
             <div className="latest-projects" key={i}>
               <div className='flex items-center'>
-                <div className="h-[90px] w-[180px] relative mr-1">
+                <div className="h-[90px] w-[220px] relative mr-1">
                   <Image className='h-[100%] w-[100%]' src={item.image} alt='latest-project' fill />
                 </div>
                 <h2 className='font-bold'>{item.description}</h2>
