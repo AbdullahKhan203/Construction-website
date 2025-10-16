@@ -118,10 +118,14 @@ import footerProject from '../../public/assets/images/footer-project.jpeg'
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoMailOpenOutline } from "react-icons/io5";
+import { projectsData } from '@/data/projectsData';
 
 import { FaGlobe } from "react-icons/fa";
 // to-[#dd261e]
 export default function Footer() {
+    const lastThree=projectsData.slice(-3);
+    console.log("lastThree",lastThree);
+    
   return (
     <div className='bg-gradient-to-br from-white to-main px-[10px] lg:px-[40px]'>
       <div className='w-full py-[10px] lg:py-[40px] grid gap-6 
@@ -193,15 +197,15 @@ export default function Footer() {
 
         <div className='flex-1 bg-transpparent bg-opacity-80 p-2 rounded'>
           <h2 className='text-lg font-bold'>Updates</h2>
-          {[1, 2, 3].map((_, i) => (
+          {lastThree.map((item, i) => (
             <div className="latest-projects" key={i}>
               <div className='flex items-center'>
                 <div className="h-[90px] w-[180px] relative mr-1">
-                  <Image className='h-[100%] w-[100%]' src={footerProject} alt='latest-project' fill />
+                  <Image className='h-[100%] w-[100%]' src={item.image} alt='latest-project' fill />
                 </div>
-                <h2 className='font-bold'>CASA 1000-TW-01 500Kv</h2>
+                <h2 className='font-bold'>{item.description}</h2>
               </div>
-              <p className='project-date'>August 13, 2021</p>
+              <p className='project-date'>{item.energizationDate}</p>
             </div>
           ))}
         </div>
