@@ -1,6 +1,6 @@
-import FirstImage from "../../../../public/assets/images/Frame1.png";
-import secondImage from "../../../../public/assets/images/Frame2.png";
-import thirdImage from "../../../../public/assets/images/Frame3.png";
+import FirstImage from "../../../../public/assets/images/Hero1.jpg";
+import secondImage from "../../../../public/assets/images/Hero2.png";
+import thirdImage from "../../../../public/assets/images/Hero3.jpg";
 import forthImage from "../../../../public/assets/images/natire5.jpg";
 
 export const posts = [
