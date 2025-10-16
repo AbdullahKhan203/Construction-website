@@ -111,9 +111,9 @@ const pageHeadings = {
 
 // Image paths
 const images = [
-  '/assets/images/Frame1.jpg',
-  '/assets/images/Frame2.png',
-  '/assets/images/Frame3.jpg',
+  '/assets/images/Hero1.jpg',
+  '/assets/images/Hero2.png',
+  '/assets/images/Hero3.jpg',
 ];
 
 export default function HeroCarousel() {
