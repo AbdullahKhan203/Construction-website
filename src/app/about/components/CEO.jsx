@@ -32,15 +32,16 @@
 import Image from 'next/image';
 import React from 'react';
 import FounderImg from '../../../../public/assets/images/founder.jpg.webp';
+import CEOImg from '../../../../public/assets/images/CEO.jpeg';
 
 export default function CEO() {
   return (
     <div className="max-w-[960px] mx-auto my-6 flex flex-col md:flex-row items-center md:justify-between gap-8 px-4">
 
       {/* Image Section */}
-      <div className="relative w-full sm:w-[400px] md:w-[450px] aspect-square mx-auto flex-shrink-0">
+      <div className="relative w-full sm:w-[400px] md:w-[450px] aspect-square mx-auto flex-shrink-0 ">
         <Image
-          src={FounderImg}
+          src={CEOImg}
           alt="CEO Image"
           fill
           className="object-cover rounded-xl"
