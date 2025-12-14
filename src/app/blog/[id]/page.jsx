@@ -56,7 +56,7 @@ import { posts } from "../data/blogData";
 
 export default function BlogDetail({ params }) {
   const post = posts.find((p) => p.id.toString() === params.id);
-  console.log("posts in slug", posts);
+  // console.log("posts in slug", posts);
 
   if (!post) return notFound();
 

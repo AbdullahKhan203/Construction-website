@@ -124,7 +124,7 @@ import { FaGlobe } from "react-icons/fa";
 // to-[#dd261e]
 export default function Footer() {
     const lastThree=projectsData.slice(-3);
-    console.log("lastThree",lastThree);
+    // console.log("lastThree",lastThree);
     
   return (
     <div className='bg-gradient-to-br from-white to-main px-[10px] lg:px-[40px]'>
@@ -153,6 +153,13 @@ export default function Footer() {
             >
               <FaPhone className="w-4 h-4 shrink-0" />
               <span>0316-0670670</span>
+            </a>
+            <a
+              href="tel:+92511234567"
+              className="flex items-center gap-2 hover:underline text-sm text-[#dd261e]"
+            >
+              <FaPhone className="w-4 h-4 shrink-0" />
+              <span>0307-3634006</span>
             </a>
 
             {/* <a href="mailto:info@abcconstructions.com" className="text-blue-600 hover:underline flex items-center gap-2">
@@ -190,7 +197,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline flex items-center gap-2"
             >
-              <FaGlobe  className="w-4 h-4 shrink-0 break-all leading-tight" /> <span  className="break-words min-w-0 leading-tight">www.siddiqueandbashirsons.com</span>
+              <FaGlobe  className="w-4 h-4 shrink-0 break-all leading-tight" /> <span  className="break-words min-w-0 leading-tight">www.siddiquebashirsons.com</span>
             </a>
           </address>
         </div>
